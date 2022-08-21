@@ -47,10 +47,10 @@ export default function ProjectItem({ data }) {
       <div className='p-6 flex flex-col'>
         <h1 className='text-2xl font-bold'>{title}</h1>
         <h3 className='mt-4 text-xl'>{description}</h3>
-        <a href={githubLink} target='_blank'>
+        <a href={githubLink} target='_blank' rel='noopener noreferrer'>
           깃 허브 바로가기
         </a>
-        <a href={blogLink} target='_blank'>
+        <a href={blogLink} target='_blank' rel='noopener noreferrer'>
           블로그 바로가기
         </a>
         <p className='my-1 '>

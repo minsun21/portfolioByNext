@@ -4,7 +4,6 @@ import ProjectItem from '../components/projects/project-item';
 import { DATABASE_ID, TOKEN } from '../config';
 
 export default function Projects({ projects }) {
-  console.log(projects);
   return (
     <Layout>
       <div className='flex flex-col items-center justify-center min-h-screen px-3 mb-10'>
